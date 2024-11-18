@@ -25,7 +25,7 @@
 	<center> FORMULARZ</center>
 </font>
 <table>
-<tr><td>IMIĘ i NAZWISKO:</td><td><input type="text" id="nazwisko_i_imie""></td></tr>
+<tr><td>IMIĘ i NAZWISKO:</td><td><input type="text" id="nazwisko_i_imie"></td></tr>
 <tr><td>ADRES E-MAIL:</td> <td><input type="e-mail" id="email" size="40" maxlenght="40"></td></tr>
 <tr><td>HASŁO:</td> <td><input type="password" id="hasło" size="10" maxlenght="10"></td></tr>
 </table>
@@ -61,8 +61,58 @@
 			<option value="maliny">maliny</option>
 		</optgroup>
 	</select>
-</pl>
-			
+</p>
+<p>
+	<input list="block" name="przegladarki" />
+	<datalist id="block">
+		<option value="Internet Explorer">
+		<option value="Firefox">
+		<option value="Chrome">
+	</datalist> <input type="submit" name="Prześlij">
+</p>
+<p>
+<select id="days[]" name="days[]" size="7" multiple>
+	<optgroup label="DNI WOLNE">
+	<option>SOBOTA</option>
+	<option>NIEDZIELA</option>
+</optgroup>
+<optgroup label="DNI ROBOCZE">
+	<option>PONIEDZIAŁEK</option>
+	<option>WTOREK</option>
+	<option>SRODA</option>
+	<option>CZWARTEK</option>
+	<option>PIATEK</option>
+</optgroup></select><p>
+<p>
+<textarea name="adres" cols="50" rows="6" >
+Jan Niezbędny
+ul.Nieznana 3
+40-001 Katowice
+Polska
+</textarea></p>
+<textarea name="adres" cols="50" rows="6" >
+Wprowadź swój adres
+</textarea></p>
+<p>
+<input type="reset" value="Wyczyść" /> - PRZYCISK RESTARTOWANIA (odświeża formularz)	
+</p>
+<p>
+ <input type="Button" name="Opusc" value="Opuść stronę!"> - input
+</p>
+<p>
+<button type="button" id="kupteraz" name="kupowanie" onclick="alert('Zakupiono')">Kupuj!</button> - przycisk kupna
+</p>
+<p>
+<input type="file" name="Wybierz plik" /> Dołączanie pliku
+</p>
+<p>
+<fieldset>
+<legend> WYKSZTAŁCENIE: </legend>
+<p><input type="radio" name="gr_op" value="podstawowe" accesskey="P" /> Podstawowe [Skrót ALT+P]<br />
+<input type="radio" name="gr_op" value="średnie" accesskey="S" />Średnie [skrót ALT+S]<br />
+<input type="radio" name="gr_op"value="wyższe" accesskey="W" />wyższe [skrót ALT+W]</p>
+</fieldset>
+<input type="imagine" name="nazwa_pola" src="gekon.jpg">
 </div>
 	<div style="background-color:grey; clear:both;"><center> &copy; S.C., November 2024
 	</center></div>

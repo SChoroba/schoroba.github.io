@@ -1,0 +1,18 @@
+body{
+    background-color: rosybrown;
+}
+h3[align] {
+    color:red
+
+}
+h2[align="right"] {
+    color:white
+
+}
+h3[title~="opis"] {
+    color:red;
+    border:3px ;
+    size: 30px;
+    border-style: dotted;
+    background-color: white;
+}

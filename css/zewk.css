@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: silver;
+	padding: 20px;
+}
+header{
+	border: 1px solid blue;
+	width: 100%;
+	background-color: black;
+	padding: 20px;
+	color:white;
+}
+nav{
+	border: 1px solid blue;
+	color:white;
+	width: 50%;
+	padding: 20px;
+	background-color: silver;
+}
+main{
+	float: left;
+	width: 60%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color:white;
+}
+section{
+	border: 1px solid blue;
+	margin-bottom: 2%;
+	background-color: black;
+	color:white;
+}
+article{
+	border: 1px solid blue;
+	margin-bottom: 10px;
+	background-color: black;
+	padding: 20px;
+}
+aside{
+	padding-left: 2%;
+	margin-top: 2%;
+	width: 38%;
+	float: right;
+}
+footer{
+	border: 1px solid blue;
+	width: 100%;
+	clear: both;
+	padding: 20px;
+	color:white;
+	background-color: black;
+}
+a:link,a:visited {
+color:aquamarine;
+}
+::marker {
+    color: red;
+}
